@@ -23,14 +23,11 @@ export default function WebinarPage() {
               Masterclass en vivo · Gratuita
             </p>
             <h1 className="mt-3 font-sans text-3xl font-bold leading-tight text-white sm:text-4xl">
-              La ruta para dejar de improvisar y empezar a construir tu
-              imperio en tu multinivel, como LÍDER PRO
+              SÉ LÍDER PRO Y CONSTRUYE TU IMPERIO EN EL MULTINIVEL
             </h1>
             <p className="mt-5 font-serif text-lg leading-relaxed text-white/80">
-              120 minutos en vivo donde vemos cómo prospectar de forma
-              constante, cómo presentar tu propuesta sin sentir que estás
-              rogando, y cómo dar tus primeros pasos con un sistema — no con
-              pura fuerza de voluntad.
+              La ruta para dejar de improvisar y empezar a construir tu
+              imperio en tu multinivel, como LÍDER PRO.
             </p>
           </div>
 
