@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Pago no completado — Bootcamp",
-  description: "Tu pago del Bootcamp no se pudo procesar.",
+  title: "Pago no completado — Curso Intensivo",
+  description: "Tu pago del Curso Intensivo no se pudo procesar.",
 };
 
 export default function BootcampPagoFallidoPage() {

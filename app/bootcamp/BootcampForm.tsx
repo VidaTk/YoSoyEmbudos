@@ -92,7 +92,7 @@ export function BootcampForm() {
         disabled={enviando}
         className="w-full rounded-lg bg-ink px-6 py-3.5 text-sm font-bold tracking-wide text-gold transition-opacity hover:opacity-90 disabled:opacity-60 sm:text-base"
       >
-        {enviando ? "Procesando…" : "INSCRIBIRME AL BOOTCAMP ($397)"}
+        {enviando ? "Procesando…" : "INSCRIBIRME AL CURSO INTENSIVO ($397)"}
       </button>
     </form>
   );

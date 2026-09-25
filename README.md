@@ -1,17 +1,17 @@
 # YoSoyEmbudos
 
-Sitio de embudos de **Yo Soy Líder Profesional** (Antonio Villanueva) —
+Sitio de embudos de **Yo Soy Líder PRO** (Tony Villanueva) —
 [yosoyliderpro.com](https://yosoyliderpro.com). Proyecto Next.js (App
 Router) desplegado en Vercel.
 
 ## Páginas
 
-- `/` — Inicio, enlaza a Webinar, Bootcamp y Diagnóstico.
+- `/` — Inicio, enlaza a Webinar, Curso Intensivo y Diagnóstico.
 - `/webinar` — Masterclass gratuita (tema oscuro negro/dorado). El
   formulario guarda el lead y redirige a EverWebinar.
 - `/bootcamp`, `/bootcamp/gracias`, `/bootcamp/pago-fallido` — Venta del
-  Bootcamp ($397 MXN, tema claro). El formulario guarda el lead y redirige
-  al link de pago de Mercado Pago.
+  Curso Intensivo: El Camino del Líder PRO ($397 MXN, tema claro). El
+  formulario guarda el lead y redirige al link de pago de Mercado Pago.
 - `/ingresar` — Acceso de alumnos (placeholder, deriva a WhatsApp).
 - `/diagnostico` — Quiz de 4 preguntas que segmenta al visitante en
   "nuevo", "estancado" o "empresario" según la primera respuesta, y lo
@@ -38,8 +38,8 @@ Mercado Pago / WhatsApp no tendrán a dónde ir hasta llenar sus variables.
 |---|---|
 | `GOOGLE_SHEETS_WEBHOOK_URL` | URL del Google Apps Script Web App que recibe todos los leads del sitio y los escribe en Google Sheets. |
 | `NEXT_PUBLIC_EVERWEBINAR_URL` | Link de registro del webinar evergreen en EverWebinar. |
-| `NEXT_PUBLIC_MERCADOPAGO_LINK` | Link de pago directo de Mercado Pago para el Bootcamp. |
-| `NEXT_PUBLIC_WHATSAPP_NUMBER` | Número de WhatsApp del negocio, con lada, solo dígitos (ej. `5215512345678`). |
+| `NEXT_PUBLIC_MERCADOPAGO_LINK` | Link de pago directo de Mercado Pago para el Curso Intensivo. |
+| `NEXT_PUBLIC_WHATSAPP_NUMBER` | Número de WhatsApp del negocio, con lada, solo dígitos. Opcional: si se deja vacío usa el default real en `lib/whatsapp.ts`. |
 
 ## 3. Google Sheet de leads
 

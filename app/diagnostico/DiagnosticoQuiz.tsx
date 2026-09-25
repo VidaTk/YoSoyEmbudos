@@ -236,7 +236,7 @@ function BotonResultado({
   }
 
   const mensaje =
-    "Vengo del diagnóstico de Yo Soy Líder Profesional — soy Empresario, quiero saber más de la Mentoría Empresarial.";
+    "Vengo del diagnóstico de Yo Soy Líder PRO — soy Empresario, quiero saber más de la Mentoría Empresarial.";
   return (
     <a
       href={construirLinkWhatsApp(mensaje)}

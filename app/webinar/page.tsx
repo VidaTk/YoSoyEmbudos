@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Logo } from "@/components/Logo";
 import { WebinarForm } from "./WebinarForm";
 
 export const metadata: Metadata = {
-  title: "Masterclass gratuita — Yo Soy Líder Profesional",
+  title: "Masterclass gratuita — Yo Soy Líder PRO",
   description:
     "120 minutos en vivo para construir tu negocio de multinivel desde cero, sin quemar tu lista de contactos.",
 };
@@ -12,11 +13,8 @@ export default function WebinarPage() {
   return (
     <main className="min-h-screen bg-ink">
       <div className="mx-auto max-w-4xl px-6 py-14 sm:px-8 sm:py-20">
-        <Link
-          href="/"
-          className="mb-10 inline-block font-sans text-sm font-semibold uppercase tracking-wide text-white/50 hover:text-gold"
-        >
-          Yo Soy Líder Profesional
+        <Link href="/" className="mb-10 inline-block">
+          <Logo className="h-9 w-auto" onDark />
         </Link>
 
         <div className="grid gap-12 sm:grid-cols-2 sm:items-center">

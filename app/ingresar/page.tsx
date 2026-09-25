@@ -3,13 +3,13 @@ import Link from "next/link";
 import { construirLinkWhatsApp } from "@/lib/whatsapp";
 
 export const metadata: Metadata = {
-  title: "Ingresar — Yo Soy Líder Profesional",
-  description: "Acceso para alumnos de Yo Soy Líder Profesional.",
+  title: "Ingresar — Yo Soy Líder PRO",
+  description: "Acceso para alumnos de Yo Soy Líder PRO.",
 };
 
 export default function IngresarPage() {
   const mensaje =
-    "Hola, necesito ayuda para entrar a mi cuenta de Yo Soy Líder Profesional.";
+    "Hola, necesito ayuda para entrar a mi cuenta de Yo Soy Líder PRO.";
 
   return (
     <main className="flex min-h-screen items-center justify-center bg-paper px-6">
@@ -22,8 +22,8 @@ export default function IngresarPage() {
         </h1>
         <p className="mt-4 font-serif text-lg leading-relaxed text-graphite-soft">
           El acceso a la plataforma de alumnos se está configurando. Si ya
-          eres parte del Bootcamp o la Mentoría y necesitas entrar, escríbenos
-          por WhatsApp y te ayudamos directo.
+          eres parte del Curso Intensivo o la Mentoría y necesitas entrar,
+          escríbenos por WhatsApp y te ayudamos directo.
         </p>
         <a
           href={construirLinkWhatsApp(mensaje)}

@@ -69,8 +69,8 @@ export const resultados: Record<SegmentoId, ResultadoSegmento> = {
   estancado: {
     titulo: "Tienes equipo, te falta sistema",
     texto:
-      "Ya diste el paso más difícil: dejar de vender solo. Ahora el reto es distinto — pasar de tener gente en tu equipo a construir un equipo que duplica sin que tú estés empujando cada resultado. Eso no se resuelve con más esfuerzo personal, se resuelve con un sistema de duplicación que tu gente pueda copiar. De eso se trata el Bootcamp: te lo entrego paso a paso.",
-    ctaTexto: "Inscribirme al Bootcamp ($397)",
+      "Ya diste el paso más difícil: dejar de vender solo. Ahora el reto es distinto — pasar de tener gente en tu equipo a construir un equipo que duplica sin que tú estés empujando cada resultado. Eso no se resuelve con más esfuerzo personal, se resuelve con un sistema de duplicación que tu gente pueda copiar. De eso se trata el Curso Intensivo: El Camino del Líder PRO — te lo entrego paso a paso.",
+    ctaTexto: "Inscribirme al Curso Intensivo ($397)",
   },
   empresario: {
     titulo: "Estás listo para escalar, no para aprender de cero",

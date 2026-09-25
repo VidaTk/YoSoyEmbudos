@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Lora } from "next/font/google";
+import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 import "./globals.css";
 
 const jakarta = Plus_Jakarta_Sans({
@@ -19,14 +20,13 @@ const lora = Lora({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://yosoyliderpro.com"),
-  title: "Yo Soy Líder Profesional",
+  title: "Yo Soy Líder PRO",
   description:
-    "Coaching para líderes de multinivel — con Antonio Villanueva. Encuentra el siguiente paso para escalar tu negocio.",
+    "Coaching para líderes de multinivel — con Tony Villanueva. Encuentra el siguiente paso para escalar tu negocio.",
   openGraph: {
-    title: "Yo Soy Líder Profesional",
-    description:
-      "Coaching para líderes de multinivel — con Antonio Villanueva.",
-    siteName: "Yo Soy Líder Profesional",
+    title: "Yo Soy Líder PRO",
+    description: "Coaching para líderes de multinivel — con Tony Villanueva.",
+    siteName: "Yo Soy Líder PRO",
     locale: "es_MX",
     type: "website",
   },
@@ -45,7 +45,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es-MX" className={`${jakarta.variable} ${lora.variable}`}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        {children}
+        <WhatsAppFloat />
+      </body>
     </html>
   );
 }

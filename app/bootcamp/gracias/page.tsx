@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "¡Gracias! — Bootcamp",
-  description: "Tu pago del Bootcamp fue confirmado.",
+  title: "¡Gracias! — Curso Intensivo",
+  description: "Tu pago del Curso Intensivo fue confirmado.",
 };
 
 export default function BootcampGraciasPage() {
@@ -14,7 +14,7 @@ export default function BootcampGraciasPage() {
           Pago confirmado
         </p>
         <h1 className="mt-3 font-sans text-3xl font-bold text-graphite sm:text-4xl">
-          ¡Bienvenido al Bootcamp!
+          ¡Bienvenido al Curso Intensivo!
         </h1>
         <p className="mt-4 font-serif text-lg leading-relaxed text-graphite-soft">
           Recibimos tu pago. En los próximos minutos te llega la confirmación
