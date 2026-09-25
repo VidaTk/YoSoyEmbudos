@@ -1,6 +1,6 @@
-// El logo tiene texto negro que se pierde sobre fondos oscuros, así que
-// las páginas de tema oscuro (Webinar, Diagnóstico) usan onDark para
-// ponerle un fondo blanco chico detrás.
+// onDark usa la variante del logo con texto blanco (fondos oscuros:
+// Webinar, Diagnóstico); el default es la variante con texto negro
+// (fondos claros: Inicio, Bootcamp).
 export function Logo({
   className = "h-9 w-auto",
   onDark = false,
@@ -8,14 +8,12 @@ export function Logo({
   className?: string;
   onDark?: boolean;
 }) {
-  const img = (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img src="/logo.png" alt="Yo Soy Líder PRO" className={className} />
-  );
-
-  if (!onDark) return img;
-
   return (
-    <span className="inline-block rounded-lg bg-white px-3 py-2">{img}</span>
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={onDark ? "/logo-dark.webp" : "/logo.png"}
+      alt="Yo Soy Líder PRO"
+      className={className}
+    />
   );
 }

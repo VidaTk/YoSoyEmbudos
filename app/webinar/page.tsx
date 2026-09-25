@@ -23,8 +23,8 @@ export default function WebinarPage() {
               Masterclass en vivo · Gratuita
             </p>
             <h1 className="mt-3 font-sans text-3xl font-bold leading-tight text-white sm:text-4xl">
-              Cómo construir tu negocio de multinivel sin quemar tu lista de
-              contactos
+              La ruta para dejar de improvisar y empezar a construir tu
+              imperio en tu multinivel, como LÍDER PRO
             </h1>
             <p className="mt-5 font-serif text-lg leading-relaxed text-white/80">
               120 minutos en vivo donde vemos cómo prospectar de forma
